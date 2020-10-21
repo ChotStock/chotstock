@@ -43,10 +43,12 @@ header {
 }
 
 .img{
-	width : 80%;
 	margin-top: 50px;
-	margin-bottom: 50px;
-	
+	margin-bottom: 50px;	
+}
+
+.img img{
+	width : 80%;
 }
 
 .point{
