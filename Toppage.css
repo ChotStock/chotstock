@@ -1,1 +1,170 @@
+@charset "UTF-8";
 
+body{
+	width: 80%;
+	margin-left: 10%;
+}
+
+.header{
+	margin-top: 60px;
+}
+
+.nav-list {
+  float: right;
+  text-align: left;
+  padding: 10px 0;
+  margin-left: 0px;
+  margin-top: -65px;
+}
+.item {
+  list-style: none;
+  display: inline-block;
+  margin:  8px;
+  font: normal normal bold 17px/23px Helvetica;
+}
+
+h1.chotstock{
+  font: normal normal bold 35px/23px Helvetica;
+}
+
+h2.midashi1{
+	margin-left: 50px;
+	margin-top: 100px;
+	font: normal normal normal 33px/0px Gill Sans;
+
+}
+
+.point-list{	
+	margin-left: 10px;
+}
+
+.point{
+	list-style: none;
+	padding-bottom: 3px;
+	font: normal normal bold 13px/15px YuGothic;
+	letter-spacing: 1.3px;
+}
+
+h3.midashi2{
+	margin-left: 50px;
+	margin-top: 80px;
+}
+
+h1.midashi3{
+	margin-left: 50px;
+	margin-top: -20px;
+}
+
+p.break-all{
+	margin-left: 50px;
+	width: 38%;
+	word-break: break-all;
+	letter-spacing: 0.85px;
+	font: normal normal bold 15px/35px YuGothic;
+}
+
+#article-img {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+	object-fit: cover;
+}
+
+#article-img2{
+	position: absolute;
+	top: 620px;
+	left: 50%;
+	object-fit: cover;
+}
+
+.todays_point{
+	width: 90%;
+	text-align: center;
+	margin-top: 230px;
+	margin-left: 5%;
+	margin-bottom: 70px;
+}
+
+.point-img img{
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+
+#midashi-point{
+	font: normal normal normal 25px/0px Gill Sans;
+	letter-spacing: 0.43px;
+}
+
+#midashi-kana{
+	font: normal normal bold 15px/20px YuGothic;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+
+#point1{
+	font: normal normal bold 20px/30px YuGothic;
+	position: absolute;
+	top: 1270px;
+	left: 28%;
+	opacity: 1;
+}
+
+#point2{
+	font: normal normal bold 20px/30px YuGothic;
+	position: absolute;
+	top: 1270px;
+	left: 46.5%;
+	opacity: 1;
+}
+
+#point3{
+	font: normal normal bold 20px/30px YuGothic;
+	position: absolute;
+	top: 1270px;
+	left: 65%;
+	opacity: 1;
+}
+
+#exa{
+	margin-left: 5%;
+	object-fit: cover;
+}
+
+
+#break-all2{
+	float: right;
+	margin-right: 5%;
+	width: 40%;
+	word-break: break-all;
+	letter-spacing: 0.6px;
+	font: normal normal bold 13px/23px YuGothic;
+}
+
+.my_comment{
+	margin-bottom: 65px;
+}
+
+
+.footer{
+	text-align: center;
+}
+
+
+.nav-list2 {
+  padding: 10px 0;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+.item2 {
+  list-style: none;
+  display: inline-block;
+  margin:  10px;
+  font: normal normal bold 13px/23px Helvetica;
+}
+
+p#copyright{
+  font: normal normal bold 10px/23px Helvetica;
+  margin-bottom: 50px;
+}
