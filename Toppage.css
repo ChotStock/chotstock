@@ -83,6 +83,7 @@ p.break-all{
 	margin-top: 230px;
 	margin-left: 5%;
 	margin-bottom: 70px;
+	position: relative;
 }
 
 .point-img img{
@@ -104,27 +105,37 @@ p.break-all{
 }
 
 #point1{
+	width: 220px;
+	height: 100px;
 	font: normal normal bold 20px/30px YuGothic;
-	position: absolute;
-	top: 1270px;
-	left: 28%;
 	opacity: 1;
 }
 
 #point2{
+	width: 220px;
+	height: 100px;
 	font: normal normal bold 20px/30px YuGothic;
-	position: absolute;
-	top: 1270px;
-	left: 46.5%;
 	opacity: 1;
 }
 
 #point3{
+	width: 220px;
+	height: 100px;
 	font: normal normal bold 20px/30px YuGothic;
-	position: absolute;
-	top: 1270px;
-	left: 65%;
 	opacity: 1;
+}
+
+.point-sentence p{
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.point-sentence{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -150px;
 }
 
 #exa{
