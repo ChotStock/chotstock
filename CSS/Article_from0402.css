@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+body{
+	width: 80%;
+	margin-left: 10%;
+}
+
+.header{
+	margin-top: 60px;
+}
+
+h1.chotstock{
+  font: normal normal bold 35px/23px Helvetica;
+}
+
+#stockNo{
+	font: normal normal normal 25px/23px Gill Sans;
+	letter-spacing: 2px;
+}
+
+.nav-list {
+  float: right;
+  text-align: left;
+  padding: 10px 0;
+  margin-left: 0px;
+  margin-top: -65px;
+}
+
+.item {
+  list-style: none;
+  display: inline-block;
+  font: normal normal bold 15px/23px Helvetica;
+	padding: 5px 20px;
+	background-color: #ededed;
+	border-radius: 20px;
+}
+
+.link_color{
+	color: black;
+	text-decoration: none;
+}
+
+.item:hover{
+	background-color: #ff6c4f;
+	transition: 0.5s;
+}
+
+
+.main_article{
+	text-align: center;
+}
+
+
+h3.midashi2{
+	margin-top: 80px;
+	font: normal normal bold 15px/25px Helvetica;
+}
+
+h1.midashi3{
+	font-family: source-han-sans-japanese, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 40px;
+	line-height: 0px;
+}
+
+p.break-all_1{
+	display: inline-block;
+	text-align: left;
+	width: 50%;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	word-break: break-all;
+	letter-spacing: 0.1px;
+	font: normal normal bold 12px/20px YuGothic;
+	color:#4A4A4A;
+}
+
+p.break-all{
+	display: inline-block;
+	text-align: left;
+	width: 60%;
+	word-break: break-all;
+	letter-spacing: 0.1px;
+	font: normal normal bold 15px/38px YuGothic;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.img p{
+	display: inline-block;
+	text-align: right;
+	width: 70%;
+	font-size: 12px;
+	color: #4A4A4A;
+}
+
+#stockNo2{
+	margin-top: 40px;
+	font: normal normal normal 22px/5px Gill Sans;
+	letter-spacing: 2px;
+	color:#4A4A4A;
+}
+
+.point-list{
+	color:#4A4A4A;
+	margin-left: -5%;
+	margin-bottom: 80px;
+}
+
+.point-list-sp{
+	display: none;
+}
+
+.point{
+	list-style: none;
+	font: normal normal bold 13px/15px YuGothic;
+	letter-spacing: 0.5px;
+}
+
+footer{
+	text-align: center;
+}
+
+h2#chotstock_footer{
+	font: normal normal bold 17px/0px Helvetica;
+	margin-top: 30px;
+}
+
+p#copyright{
+  font: normal normal bold 8px/0px Helvetica;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  letter-spacing: 0.5px;
+}
+
+p#copyright-sp{
+  display: none;
+}
